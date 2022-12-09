@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+</head>
+
+<body>
+  <a href="index.html">
+    <img src="imagens/back.png" alt="Voltar" />
+  </a><br>
+
+  <form>
+    <label for="name">Nome
+      <input type="text" id="name" />
+    </label><br><br>
+
+    <label for="email">E-Mail
+      <input type="email" id="email" required />
+    </label><br><br>
+
+    Selecione o seu gênero: <br>
+    <input type="radio" name="sexo" value="Feminino"> Feminino
+    <input type="radio" name="sexo" value="Masculino"> Masculino
+    <input type="radio" name="sexo" value="Helicoptero"> Helicóptero
+    <input type="radio" name="sexo" value="Geladeira"> Geladeira
+    <br><br>
+
+    Você me segue em alguma rede social? Se sim, marca ai!! <br>
+    <input type="checkbox" name="rede" value="Instagram"> Instagram
+    <input type="checkbox" name="rede" value="Discord"> Discord
+    <input type="checkbox" name="rede" value="Github"> Github
+    <input type="checkbox" name="rede" value="Twitter"> Twitter
+    <br><br>
+
+    <label>
+      Selecione a sua região
+      <select>
+        <option value="" selected>Selecione aqui</option>
+        <option value="nor">Norte</option>
+        <option value="nord">Nordeste</option>
+        <option value="cen">Centro-Oeste</option>
+        <option value="sul">Sul</option>
+        <option value="suld">Suldeste</option>
+      </select>
+    </label><br><br>
+
+    <label>Digite seu comentário</label><br>
+    <textarea></textarea><br><br>
+
+    <button>Enviar Formulário</button>
+  </form>
+
+</body>
+
+</html>
